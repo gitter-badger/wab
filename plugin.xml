@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="WAB Log" lan="LAN_PLUGIN_WAB_NAME" version="2.0" date="2015-02-18" compatibility="2.0" installRequired="true" >
+	<author name="Barry Keal G4HDU" url="http://www.g4hdu.co.uk" />
+	<summary>Worked All Britain award logging system</summary>
+	<description lan="LAN_PLUGIN_WAB_DIZ">A web based logging system for the Worked All Britain award.</description>
+	<category>Ham Radio</category>
+	<keywords>
+		<word>ham radio</word>
+		<word>worked all britain</word>
+		<word>wab</word>
+		<word>G4HDU</word>
+	</keywords>
+	<adminLinks>
+		<link url='admin_config.php' description='Configure WAB Plugin' icon='images/wab_32.png' iconSmall='images/wab_16.png' primary='true' >LAN_CONGIGURE</link>
+		<link url="admin_config.php?mode=options" description="Configure WAB Prefs" icon="manage" >WAB Prefs</link>
+	</adminLinks>
+	<siteLinks>
+		<link url="{e_PLUGIN}wab/index.php" perm='everyone' sef='wab-plugin'>LAN_PLUGIN_WAB_LINK</link>
+	</siteLinks>
+	<pluginPrefs>
+		<pref name="wab_pref_view">0</pref>
+		<pref name="wab_pref_admin">0</pref>
+		<pref name="wab_pref_log">0</pref>
+	</pluginPrefs>
+	<userClasses>
+		<class name="wab_log" description="WAB create or use logs" />
+		<class name="wab_view" description="WAB View logs" />
+		<class name="wab_admin" description="WAB administrator" />
+	</userClasses>
+	<extendedFields>
+		<field name="custom" type='EUF_TEXTAREA' default='0' active="true" />
+	</extendedFields>
+</e107Plugin>

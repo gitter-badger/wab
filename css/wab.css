@@ -1,0 +1,609 @@
+#wabMainPage{
+	text-align:center;
+/*	width:100%;*/
+	display:block;
+	padding:8px;
+	overflow:none;
+	background: -webkit-linear-gradient( #EDECF1,#F6FDFA); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#EDECF1,#F6FDFA); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient( #EDECF1,#F6FDFA); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#EDECF1,#F6FDFA); /* Standard syntax */
+	border:gray 1px solid;
+}
+#wabTableWrapper{
+	border: 1px solid red;
+	width:100%;
+	min-height: 50px;
+	overflow: auto;
+	padding:5px;
+	margin-top:5px;
+}
+table.wabImportTable{
+	width:100%;
+	border: 1px solid gray;
+	margin-right: 10px;
+
+	border-collapse:collapse;
+}
+table.wabImportTable th{
+
+	font-size:11px;
+	font-weight:bold;
+	vertical-align:text-top;
+	text-align:center;
+	padding:2px;
+	border-right:1px solid silver;
+	border-bottom:1px solid silver;
+	background-color:Gold;
+	width:50%;
+}
+/* All list tables start off like this */
+.wabListTable{
+	border: 1px solid gray;
+	margin-right: 10px;
+	background-color: #aaa;
+	border-collapse:collapse;
+	height:100%;
+}
+.wabListTable tr:nth-child(even){
+	background-color:#eee;
+}
+.wabListTable tr:nth-child(odd){
+	background-color:#fff;
+}
+.wabListTable td {
+	padding:3px;
+	font-size:11px;
+
+}
+.wabListTable thead{
+	display:block;
+}
+
+.wabDetailRow {
+	width:100%;
+}
+
+.wabListTable tbody {
+	background-color: #ddd;
+	height: 380px;
+	overflow: auto;
+	display:block;
+}
+
+.wabListTable th{
+	font-size:11px;
+	font-weight:bold;
+	vertical-align:text-top;
+	text-align:center;
+	padding:2px;
+	border-right:1px solid silver;
+	border-bottom:1px solid silver;
+	background-color:Gold;
+max-width:100%
+}
+#wabFooterLeft{
+	float:left;
+}
+#wabFooterRight{
+	float:right;
+}
+#wabFooterContainer{
+	width:100%;
+	min-height:50px;
+	vertical-align:middle;
+}
+#wabFilterMenu{
+	display:block;
+	margin-right:1px;
+}
+.wabFilterCell{
+	min-width: 50px;
+	vertical-align:top;
+	font-size:11px;
+    padding:2px;
+	border-right:1px solid silver;
+	border-bottom:1px solid silver;
+	border-left:1px solid silver;
+	border-top:1px solid silver;
+	min-height:24px;
+}
+.wabMenuExport{
+	font-size:9px;
+}
+.wabid{
+	min-width: 65px;
+	text-align:center;
+}
+.wabrid{
+	min-width: 65px;
+	text-align:right;
+}
+.wabdate{
+	text-align:center;
+	min-width: 85px;
+}
+.wabrdate{
+	text-align:left;
+	min-width: 85px;
+}
+.wabtime{
+	text-align:center;
+	min-width: 70px;
+}
+.wabrtime{
+	text-align:left;
+	min-width: 70px;
+}
+.wabcall{
+	text-align:center;
+	min-width: 80px;
+}
+.wabrcall{
+	text-align:left;
+	min-width: 80px;
+}
+.wabarea{
+	text-align:center;
+	min-width: 65px;
+}
+.wabrarea{
+	text-align:left;
+	min-width: 65px;
+}
+
+/* Coastal List */
+.wabcoastal{
+	text-align:center;
+	min-width: 65px;
+}
+.wabrcoastal{
+	text-align:center;
+	min-width: 65px;
+}
+.wabcountry{
+	text-align:center;
+	min-width: 65px;
+}
+.wabrcountry{
+	text-align:center;
+	min-width: 65px;
+}
+.wabisland{
+	text-align:center;
+	min-width: 65px;
+}
+.wabrisland{
+	text-align:center;
+	min-width: 65px;
+}
+.wabconfirm{
+	text-align:center;
+	min-width: 65px;
+}
+.wabrconfirm{
+	text-align:center;
+	min-width: 65px;
+}
+.wabfreq{
+	min-width: 85px;
+	text-align:center;
+}
+.wabrfreq{
+	min-width: 85px;
+	text-align:right;
+}
+.wabband{
+	min-width: 65px;
+	text-align:right;
+}
+.wabrband{
+	min-width: 65px;
+	text-align:right;
+}
+.wabmode{
+	min-width: 65px;
+	text-align:right;
+}
+.wabrmode{
+	min-width: 65px;
+	text-align:right;
+}
+.wabrst{
+	min-width: 50px;
+	text-align:right;
+}
+.wabrrst{
+	min-width: 50px;
+	text-align:right;
+}
+.wabpower{
+	min-width: 60px;
+	text-align:right;
+}
+.wabrpower{
+	min-width: 60px;
+	text-align:right;
+}
+.wabflag{
+	min-width: 24px;
+	text-align:center;
+}
+.wabname{
+	min-width: 90px;
+	text-align:left;
+}
+.wabrname{
+	min-width: 90px;
+	text-align:left;
+}
+.wabqsl{
+	min-width: 55px;
+	text-align:center;
+}
+.wabrqsl{
+	min-width: 55px;
+	text-align:center;
+}
+.wabaction{
+	min-width: 55px;
+	text-align:center;
+}
+.wabraction{
+	min-width: 55px;
+	text-align:center;
+}
+/* Books table css */
+.wabBooksTable{
+	width:100%;
+}
+
+.wabBooksNumber{
+	min-width: 75px;
+	text-align:right;
+}
+
+
+.wabBookscall{
+	width:100%;
+	text-align:left;
+	min-width:150px;
+}
+
+.wabBookseries{
+	min-width: 75px;
+	text-align:center;
+}
+
+.wabBooksissued{
+	min-width: 130px;
+	text-align:left;
+}
+
+.wabBookstick{
+	min-width: 60px;
+	text-align:center;
+}
+/* Users List */
+.wabUsersCall{
+	min-width: 110px;
+	text-align:left;
+}
+.wabrUsersName{
+	min-width:110px;
+	text-align:left;
+}
+.wabrUsersLogs{
+	min-width:60px;
+	text-align:right;
+}
+.wabrUsersBooks{
+	min-width:60px;
+	text-align:right;
+}
+.wabUsersArea{
+	min-width:60px;
+	text-align:left;
+}
+.wabUsersFlag{
+	width:35px;
+	text-align:center;
+}
+/* Settings */
+.wabSettingsTable{
+	width:100%;
+}
+/* Counties list */
+.wabCountyTable{
+	width:100%;
+}
+.wabCountyName{
+	min-width: 150px;
+	text-align:left;
+}
+.wabCountyName th {
+	text-align:center;
+}
+.wabCountyFlag{
+	min-width: 50px;
+	text-align:center;
+}
+.wabCountyFlag th {
+	text-align:center;
+}
+.wabCountyNotes{
+	width:auto;
+	text-align:left;
+}
+.wabCountyNotes th {
+	text-align:center;
+}
+.wabCountyID{
+	width:70px;
+}
+.wabCountyID th{
+	width:70px;
+}
+.wabNoCountyExist{
+	width:100%;
+	height:30px;
+	background-color:#FDE6E3;
+}
+/* Country List */
+.wabCountryTable{
+	width:100%;
+}
+
+.wabCountryName{
+	min-width: 170px;
+	text-align:left;
+}
+.wabCountryName th {
+	text-align:center;
+}
+
+.wabCountryFlag{
+	min-width: 50px;
+	text-align:center;
+}
+.wabCountryFlag th {
+	text-align:center;
+}
+.wabCountryNotes{
+	width:100%;
+	text-align:left;
+}
+.wabCountryNotes th {
+	text-align:center;
+}
+.wabCountryID{
+	text-align:center;
+	min-width:80px;
+}
+.wabCountryID th {
+	text-align:center;
+}
+.wabNoCountyExist{
+	width:100%;
+	height:30px;
+	background-color:#FDE6E3;
+}
+/* Islands List */
+.wabislandname{
+	min-width: 250px;
+	text-align:center;
+}
+.wabrislandname{
+	min-width: 250px;
+	text-align:left;
+}
+.wabislandarea{
+	min-width: 55px;
+	text-align:center;
+}
+.wabrislandarea{
+	min-width: 55px;
+	text-align:left;
+}
+.wabislandcountry{
+	min-width: 100px;
+	text-align:center;
+}
+.wabrislandcountry{
+	min-width: 100px;
+	text-align:center;
+}
+.wabislandcount{
+	min-width: 55px;
+	text-align:center;
+}
+.wabrislandcount{
+	min-width: 55px;
+	text-align:right;
+}
+.wabislandcomment{
+	min-width: 250px;
+	text-align:center;
+}
+.wabrislandcomment{
+	min-width: 250px;
+	text-align:center;
+}
+.wabExportTable{
+		width:100%;
+}
+.wabExportHead{
+	border-left:1px solid lightgray ;
+	border-right:1px solid lightgray ;
+	border-top:1px solid lightgray ;
+	border-bottom:1px solid lightgray ;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:6px;
+	padding-bottom:6px;
+	font-weight:bold;
+}
+.wabExportColh, .wabExportCol{
+		width:50%;
+		padding-left:6px;
+		padding-right:6px;
+		border-left:1px solid lightgray ;
+		border-right:1px solid lightgray ;
+}
+.wabExportColh{
+	border-top:1px solid lightgray ;
+padding-top:3px;
+padding-bottom:0px;
+	text-align:left;
+font-size:0.9em;
+}
+.wabExportCol{
+	padding-top:2px;
+	padding-bottom:3px;
+}
+.wabQuickMyLog, .wabQuickSubmit{
+	text-align:center;
+}
+.wabMineTable{
+	width:100%;
+}
+.wabQuickTable{
+	width:100%;
+}
+.wabQuickField{
+	text-align:right;
+		padding-bottom:1px;
+}
+.wabQuickValue{
+	text-align:left;
+	padding-bottom:1px;
+}
+.wabQuickHField{
+	text-align:right;
+	padding-bottom:1px;
+}
+.wabQuickHValue{
+	text-align:left;
+	padding-bottom:1px;
+}
+.wabQuickSubmit{
+	padding-top:10px;
+}
+#wabQuickMenuStatus{
+	text-align:left;
+	display:none;
+	background-color:#DFF0D8;
+	font-size:16px;
+	text-align:center;
+}
+#wabQuickMyLog{
+	text-align:center;
+}
+/*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*/
+
+
+
+
+
+
+
+
+
+
+
+#wabNoLog{
+		text-align:center;
+	width:100%;
+}
+#wabNoLogExist{
+		width:100%;
+}
+#wabNoLogAjax{
+		width:100%;
+	display:none;
+}
+
+.wabTopMenu{
+	text-align:center;
+	width:100%;
+	display:block;
+	font-size:9px;
+	background: -webkit-linear-gradient(#F6FDFA, #EDECF1); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#F6FDFA, #EDECF1); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#F6FDFA, #EDECF1); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#F6FDFA, #EDECF1); /* Standard syntax */
+	border:gray 1px solid;
+}
+.wabMenuContainer{
+	text-align:center;
+	margin:5px;
+/*	display:table-row;*/
+/*
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-between;
+
+
+*/
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	/* You can set flex-wrap and flex-direction individually */
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	/* Or do it all in one line with flex flow */
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	/* tweak the where items line up on the row */
+	/* valid values are: flex-start, flex-end, space-between, space-around, stretch */
+	-webkit-align-content: flex-end;
+	align-content: flex-end;
+}
+.wabMenuContainer div {
+	white-space:nowrap;
+
+}
+.wabIconContainer{
+	text-align:center;
+/*	display:table-cell;*/
+	width:48px;
+	height:48px;
+	margin:5px;
+	padding:4px;
+	border: 1px solid #D9D5E9;
+}
+a.wabIconContainer:hover {
+	text-decoration: none;
+	border:2px solid #968BC3;
+	padding:4px;
+}
+.wabMenuIcon{
+	width:24px;
+	height:24px;
+	margin-bottom:5px;
+}
+
+}

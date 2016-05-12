@@ -1,0 +1,28 @@
+wabFieldApplication,wabFieldInOut,wabFieldLocalName,fk,wabFieldName,wabFieldDataType,wabFieldSize,imortfunction
+HamLog,2,wabLogDate,,qso_date,Date,,
+HamLog,2,wabLogStart,,time_on,Time,,
+HamLog,2,wabLogEnd,,time_off,Time,,
+HamLog,2,wabLogFreq,,freq,Decimal,,
+HamLog,2,wabLogBandfk,1,,Tiny Int,,getBand
+HamLog,2,wabLogModefk,1,mode,Tiny Int,,getMode
+HamLog,2,wabLogPower,,tx_pwr,Small Int,,
+HamLog,2,wabLogCallsign,,call,Varchar,,
+HamLog,2,webLogRSOut,,rst_sent,Char,,
+HamLog,2,webLogRSIn,,rst_rcvd,Char,,
+HamLog,2,webLogQSLOut,,qsl_sent,Tiny Int,,
+HamLog,2,webLogQSLIn,,qsl_rcvd,Tiny Int,,
+HamLog,2,webLogAreaWorkedFK,,,Integer,,getArea
+HamLog,2,webLogAreaOpFromFK,,,Integer,,getArea
+HamLog,2,webLogIARU,,,Char,,
+HamLog,2,wabLogCountryfk,1,country,,,getCountry
+HamLog,2,wabLogContinentFK,1,,Tiny Int,,getContinent
+HamLog,2,wabLogCQ,,,Tiny Int,,
+HamLog,2,wabLogITU,,gridsquare,Char,,
+HamLog,2,wabLogDXCC,,,Integer,,
+HamLog,2,wabLogDistance,,,Integer,,
+HamLog,2,wabLogStationfk,,,Small Int,,
+HamLog,2,wabLogQSLVia,,,Tiny Text,,
+HamLog,2,wabLogName,,name,Tiny Text,,
+HamLog,2,wabLogQTH,,qth,Tiny Text,,
+HamLog,2,wabLogStatefk,1,state,Tiny Int,,getState
+HamLog,2,wabLogNotes,,notes,Text,,
